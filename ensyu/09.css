@@ -11,6 +11,9 @@ div p{
     background-color: #eee;
 
 }
+h1,a{
+    color:#f00;
+}
 li#colorRed{
     color: #f00;
 }
