@@ -18,6 +18,14 @@ img {
   vertical-align: bottom;
   border-style: none;
 }
+.loop{border-radius: 50%;animation: loop 2s linear 0s infinite}
+@keyframes loop{
+
+  0%   {transform:rotate3d(1,1,1,0deg);}
+  50%  {transform:rotate3d(1,1,1,180deg);}
+  100% {transform:rotate3d(1,1,1,360deg);}
+  
+}
 
 ul,
 li {
