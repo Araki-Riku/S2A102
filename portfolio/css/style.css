@@ -1,3 +1,4 @@
+
 body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 14px;
@@ -21,9 +22,9 @@ img {
 .loop{border-radius: 50%;animation: loop 2s linear 0s infinite}
 @keyframes loop{
 
-  0%   {transform:rotate3d(1,1,1,0deg);}
-  50%  {transform:rotate3d(1,1,1,180deg);}
-  100% {transform:rotate3d(1,1,1,360deg);}
+  0%   {transform:rotate3d(900,1,8,0deg);}
+  50%  {transform:rotate3d(1,900,1,180deg);}
+  100% {transform:rotate3d(1,1,900,360deg);}
   
 }
 
