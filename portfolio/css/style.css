@@ -5,12 +5,13 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
+  background-color: #fff;
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  color: #1c72e3;
 }
 
 img {
@@ -149,6 +150,9 @@ li {
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
+.LOGO{
+  max-width: 100%;
+}
 .main-visual {
   display: flex;
   align-items: center;
@@ -190,7 +194,8 @@ li {
   border-radius: 50%;
 }
 .main-visual-text {
-  flex: 1;
+  flex: 0.7;
+  text-align: center;
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
