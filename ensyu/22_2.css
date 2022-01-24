@@ -1,11 +1,14 @@
 @charset "UTF-8";
-*{
+
+* {
     box-sizing: border-box;
 }
+
 caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 table {
     border-spacing: 0;
     border-collapse: collapse;
@@ -13,10 +16,12 @@ table {
     width: 100%;
     margin-bottom: 20px;
 }
+
 th, td {
-    border:1px solid #aaa;
+    border: 1px solid #aaa;
     padding: 10px 20px;
 }
+
 .first th {
     width: 35%;
     background: #069;
@@ -24,16 +29,20 @@ th, td {
     font-weight: bold;
     text-align: center;
 }
-td{
+
+td {
     text-align: left;
 }
-.second tr:nth-of-type(odd){
+
+.second tr:nth-of-type(odd) {
     background: #ccc;
 }
-.second tr:nth-of-type(even){
+
+.second tr:nth-of-type(even) {
     background: #ddd;
 }
-.second th{
+
+.second th {
     width: 35%;
     font-weight: bold;
     text-align: center;
