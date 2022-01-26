@@ -8,7 +8,7 @@ div {
   padding: 5px;
   float: left;
   /*ここから */
-
+  background: url(img/bg_cat.png) right bottom no-repeat;
   /*ここまで */
 }
 /*ここから */
